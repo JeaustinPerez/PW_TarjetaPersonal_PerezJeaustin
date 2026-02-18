@@ -1,0 +1,113 @@
+body {
+      background: #b6b6b6;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      display: flex;
+      height: 100vh;
+      align-items: center;
+      justify-content: center;
+    }
+    .card {
+      background: #D6EFFF;
+      border-radius: 12px;
+      box-shadow: 0 8px 24px rgba(43,88,245,0.15);
+      padding: 2rem;
+      max-width: 340px;
+      text-align: center;
+    }
+    .card img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      border: 3px solid #1F2A44;
+      margin-bottom: 1rem;
+      object-fit: cover;
+    }
+    .card h1 {
+
+      margin: 0.5rem 0 1rem 0;
+      font-size: 1.6rem;
+      
+    }
+    .card p {
+      /*color: #1F2A44;*/
+      font-size: 0.95rem;
+      line-height: 1.4;
+      margin-bottom: 1rem;
+    }
+    
+    .intereses {
+      list-style: none;
+      padding: 0;
+      margin: 1rem 0;
+    }
+    .intereses li {
+      background: #e3eafd;
+      color: #97bcff;
+      margin: 0.5rem 0;
+      border-radius: 8px;
+      padding: 0.3rem 1rem;
+      display: inline-block;
+    }
+    .card a {
+      text-decoration: none;
+      color: #fff;
+      background: #858fb0;
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      margin-top: 1rem;
+      display: inline-block;
+      font-weight: bold;
+      transition: background 0.2s;
+    }
+    .card a:hover {
+      background: #172c6a;
+    }
+
+
+    .card li{
+        background: #ffffff4e;
+     
+        margin: 0.5rem 0;
+        border-radius: 8px;
+        padding: 0.3rem 1rem;
+        display: inline-block;
+    }
+    .card button {
+      background: #858fb0;
+      color: #fff;
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      margin-top: 1rem;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .oculto{
+        display: none;
+    }
+
+ 
+/* Modo claro */
+.claro {
+  background-color: #f0f0f0;
+  color: #000; /* texto general */
+}
+
+/* Afecta texto de todos los elementos internos */
+.claro h1, .claro h3, .claro p, .claro li, .claro a, .claro button {
+  color: #000;
+}
+
+/* Modo oscuro */
+.oscuro {
+  background-color: #333;
+  color: #fff; /* texto general */
+}
+
+.oscuro h1, .oscuro h3, .oscuro p, .oscuro li, .oscuro a, .oscuro button {
+  color: #fff;
+}
+
+/* Opcional: estilizar links para que no se vean feos */
+.claro a { text-decoration: underline; }
+.oscuro a { text-decoration: underline; }
